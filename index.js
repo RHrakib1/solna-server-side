@@ -8,7 +8,7 @@ require('dotenv').config()
 const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 
 const corsOption = {
-    origin: ['http://localhost:5173', 'http://localhost:5174', 'http://localhost:5175'],
+    origin: ['http://localhost:5173', 'http://localhost:5174', 'http://localhost:5175', 'https://solo-prokect.web.app/'],
     credentials: true,
     optionsSuccessStatus: 200,
 };
